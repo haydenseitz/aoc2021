@@ -1,6 +1,7 @@
 import numpy
+from common import input_path
 
-input = numpy.loadtxt('input/day1.txt',dtype=int)
+input = numpy.loadtxt(f'{input_path}/day1.txt',dtype=int)
 
 increased = 0
 
